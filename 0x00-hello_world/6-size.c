@@ -10,7 +10,7 @@ int main(void)
 {
 	printf("The size of an int is: %ld.\n", sizeof(int));
 	printf("The size of a short int is: %li.\n", sizeof(short int));
-	printf("The size of a long int is: %lu.\n", size of(long int));
+	printf("The size of a long int is: %lu.\n", size_tof(long int));
 	printf("The size of a char is: %lu.\n", sizeof(char));
 	printf("The size of a signed integer is: %lu.\n", sizeof(signed int));
 	printf("The size of an unsigned integer is: %lu.\n", sizeof(unsigned int));
