@@ -1,0 +1,3 @@
+#!/bin/bash
+gcc -S -masm=intel test.c
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C$CFILE -o $CFILE.s
