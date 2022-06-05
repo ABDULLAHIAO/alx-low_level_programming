@@ -10,13 +10,13 @@
 
 int main(void)
 {
-	printf("The size of an int is: %ld.\n", sizeof(int));
-	printf("The size of a short int is: %li.\n", sizeof(short int));
-	printf("The size of a long int is: %lu.\n", sizeof(long int));
-	printf("The size of a char is: %lu.\n", sizeof(char));
-	printf("The size of a signed integer is: %lu.\n", sizeof(signed int));
-	printf("The size of an unsigned integer is: %lu.\n", sizeof(unsigned int));
-	printf("The size of a double is: %lu.\n", sizeof(double));
-	printf("The size of a float is: %lu.\n", sizeof(float));
+	printf("The size of an int is: %zu.\n", sizeof(int));
+	printf("The size of a short int is: %zu.\n", sizeof(short int));
+	printf("The size of a long int is: %zu.\n", sizeof(long int));
+	printf("The size of a char is: %zu.\n", sizeof(char));
+	printf("The size of a signed integer is: %zu.\n", sizeof(signed int));
+	printf("The size of an unsigned integer is: %zu.\n", sizeof(unsigned int));
+	printf("The size of a double is: %zu.\n", sizeof(double));
+	printf("The size of a float is: %zu.\n", sizeof(float));
 	return (0);
 }
