@@ -1,3 +1,2 @@
 #!/bin/bash
-gcc -S -masm=intel test.c
-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C$CFILE -o $CFILE.s
+gcc -S -masm=intel $CFILE -o $CFILE.s
