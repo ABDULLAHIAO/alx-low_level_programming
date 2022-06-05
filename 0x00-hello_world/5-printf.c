@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 	/**
-	 * We are only to use printf function
-	 * We are not allowed to use function puts
-	 * This program would return 0
+	 * main - Entry point
+	 * Return: Always 0 (Success)
 	 */
 
 int main(void)
