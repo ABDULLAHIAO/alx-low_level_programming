@@ -11,7 +11,6 @@
 int main(void)
 {
 	printf("The size of an int is: %zu byte(s)\n", sizeof(int));
-	printf("The size of an int in a 8-bit manchine: %lu byte(s)\n", sizeof( int8_t ));
 	printf("The size of a short int is: %zu byte(s)\n", sizeof(short int));
 	printf("The size of a long int is: %zu byte(s) \n", sizeof(long int));
 	printf("The size of a long long int is: %zu byte(s)\n", sizeof(long long int));
