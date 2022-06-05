@@ -12,7 +12,7 @@ int main(void)
 {
 	printf("The size of an int is: %zu byte(s)\n", sizeof(int));
 	printf("The size of an int in a 8-bit manchine: %lu byte(s)\n", sizeof( int8_t ));
-	printf("The size of a signed integer in a 16-bit manchine is: %lu byte(s)\n", sizeof( int16_t ));
+	printf("The size of a signed integer in a 16-bit manchine is: %lu byte(s)\n", sizeof( int16));
 	printf("The size of an unsigned int in a 32-bit manchine is: %zu byte(s)\n", sizeof(uint32_t));
 	printf("The size of an unsigned int in a 64-bit manchine is: %lu byte(s)\n", sizeof(uint64_t));
 	printf("The size of a short int is: %zu byte(s)\n", sizeof(short int));
