@@ -4,7 +4,6 @@
  * main - Entry point of the program
  *
  * Return: Always 0 (Success)
- * printf - delivers message to the standard output
  */
 
 int main(void)
