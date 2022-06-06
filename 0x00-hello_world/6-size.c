@@ -2,9 +2,8 @@
 
 /**
  * main - Entry point of the program
- * main() - program's entry point
- * void - return value of the main function
- * return - program returns 0 always
+ *
+ * Return: Always 0 (Success)
  * printf - delivers message to the standard output
  */
 
