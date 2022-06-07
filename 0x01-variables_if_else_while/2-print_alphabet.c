@@ -14,7 +14,7 @@ int main(void)
 
 		for (Alphabets = 97; Alphabets <= 122; Alphabets++)
 		{
-			putchar("%c\t\n", Alphabets);
+			putchar("%c\n", Alphabets);
 		}
 	}
 }
