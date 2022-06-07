@@ -6,24 +6,19 @@
  * Return: Always 0 (Success)
  */
 
-int main(void)
+
 	char Alphabets;
-{
-	void lowercase_ascii
+
+	void lowercase_ascii()
 	{
 		/*printing lowercase alphabets using ASCII*/
 		for (Alphabets = 97; Alphabets <= 122; Alphabets++)
 		{
-			printf("%c\t\n", Alphabets);
+			putchar("%c\t\n", Alphabets);
 		}
 	}
-	
-	void lowercase_letters
-	{
-		/*printing lowercase letters using alphabet characters itself*/
-		for (Alphabets = a; Alphabets <= z; Alphabets++)
-		{
-			printf("%c\t\n", Alphabets);
-		}
-	}
+
+	int main()
+{
+	putchar("%c\t\n", Alphabets);
 }
