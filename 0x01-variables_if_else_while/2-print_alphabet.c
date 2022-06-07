@@ -9,8 +9,6 @@
 
 	char Alphabets;
 
-	void lowercase_ascii()
-	{
 		/*printing lowercase alphabets using ASCII*/
 		for (Alphabets = 97; Alphabets <= 122; Alphabets++)
 		{
