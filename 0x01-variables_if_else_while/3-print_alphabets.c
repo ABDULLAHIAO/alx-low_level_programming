@@ -19,6 +19,6 @@ int main(void)
 	{
 		putchar("%c\n", c);
 	}
-	
+
 	return (0);
 }
