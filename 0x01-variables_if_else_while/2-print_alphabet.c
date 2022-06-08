@@ -12,10 +12,10 @@ int main(void)
 
 		/*printing lowercase alphabets using ASCII*/
 
-		for (ch = 97; ch <= 122; ++ch)
+		for (ch = 97; ch <= 122; ch++)
 		{
 			putchar(ch);
-			putchar(\n);
+			putchar('\n');
 		}
 
 		return (0);
