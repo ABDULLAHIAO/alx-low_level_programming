@@ -8,9 +8,10 @@
 
 int main(void)
 {
-	int num = 0;
+	int num;
+	num = 0;
 
-	when(num < 10)
+	while(num < 10)
 	{
 		printf("%c\n", num);
 		++num;
