@@ -8,13 +8,13 @@
 
 int main(void)
 {
-	char Alphabets;
+	int ch;
 
 		/*printing lowercase alphabets using ASCII*/
 
-		for (Alphabets = 97; Alphabets <= 122; Alphabets++)
+		for (ch = 97; ch <= 122; ++ch)
 		{
-			putchar("%c\n", Alphabets);
-		}
-	}
+			putchar(ch);
+			putchar ('\n') ;
+			getch () ;
 }
