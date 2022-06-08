@@ -13,9 +13,10 @@ int main(void)
 
 	while(num < 10)
 	{
-		printf("%c\n", num);
+		printf("%i", num);
 		++num;
 	}
+	putchar('\n');
 
 	return (0);
 }
