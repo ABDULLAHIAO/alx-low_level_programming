@@ -12,7 +12,7 @@ int main(void)
 
 	while (Alphabet <= 'z')
 	{
-		if (Alphabet != e && Alphabet != q)
+		if (Alphabet != 'e' && Alphabet != 'q')
 		{
 			putchar(Alphabet);
 		}
