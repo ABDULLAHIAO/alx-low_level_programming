@@ -8,14 +8,16 @@
 
 int main(void)
 {
-	int num = 0;
+	int alpha;
+	alpha = 'z';
 
-	for(num = 0; num < 10; ++num)
+	while(alpha >= z)
 	{
-		putchar(num);
+		putchar(alpha);
+		--alpha;
 	}
-
 	putchar('\n');
 
 	return (0);
 }
+
