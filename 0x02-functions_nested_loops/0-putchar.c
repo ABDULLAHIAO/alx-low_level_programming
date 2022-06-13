@@ -1,15 +1,21 @@
-#include "_putchar.h"
+#include "main.h"
+#include <string.h>
 
 /**
- * main - Entry point
+ * main - prints _putchar to standard output
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	_putchar(_putchar);
-	_putchar('\n');
+	char str = '_putchar';
+	
+	int i;
 
+	for (i = 0; i < strlen(str); i++)
+	{
+		_putchar(str[i]);
+	}
 	return (0);
 }
