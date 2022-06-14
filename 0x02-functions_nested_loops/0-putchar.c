@@ -10,8 +10,7 @@
 int main(void)
 {
 	char *str = "_putchar";
-	
-	long unsigned int i;
+	unsigned long int i;
 
 	for (i = 0; i < strlen(str); i++)
 	{
