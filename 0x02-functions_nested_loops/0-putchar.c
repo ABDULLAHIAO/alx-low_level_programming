@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	char *str = '_putchar';
+	char *str = "_putchar";
 	
 	long unsigned int i;
 
